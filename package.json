@@ -1,0 +1,25 @@
+{
+  "name": "video-streaming",
+  "version": "1.0.0",
+  "description": "sistema modelo basico de transmision de video en vivo desde webCam",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonsina94/video-streaming.git"
+  },
+  "author": "Yansi Mora <yansimora@gmail.com> (yonsina94)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonsina94/video-streaming/issues"
+  },
+  "homepage": "https://github.com/yonsina94/video-streaming#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "log": "^1.4.0",
+    "pug": "^2.0.0-rc.2",
+    "socket.io": "^2.0.3"
+  }
+}

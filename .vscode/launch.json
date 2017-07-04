@@ -1,0 +1,36 @@
+{
+    // Utilice IntelliSense para aprender sobre los atributos de depuración de Node.js. 
+    // Mantenga el puntero para ver las descripciones de los existentes atributos 
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [{
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceRoot}",
+            "runtimeExecutable": "E:/PortableApps/GoogleChromePortable/App/Chrome-bin/chrome.exe"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "nodemon",
+            "runtimeExecutable": "nodemon",
+            "runtimeArgs": [
+                "--debug=5858"
+            ],
+            "program": "${workspaceRoot}/app.js",
+            "restart": true,
+            "port": 5858,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "protocol": "inspector"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Iniciar programa",
+            "program": "${workspaceRoot}\\app.js"
+        }
+    ]
+}

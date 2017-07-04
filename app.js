@@ -29,8 +29,6 @@ io.on('connection', (socket) => {
     })
 })
 
-
-
 http.listen(port, () => {
     log.info(`Servidor corriendo en el puerto ${port}`);
 });
